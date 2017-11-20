@@ -1,10 +1,15 @@
-import toot from "./toot.js";
+import './index.scss';
+import toot from './toot.js';
 
 export default () => {
+  console.log(toot)
+
   document.write(`
   <head>
-  <title>Title ${toot}</title>
-  <body>Body ${toot}</body>
+    <title>Title ${toot}</title>
+  </head>
+  <body>
+    <h1>Body ${toot}</h1>
+  </body>
   `)
-  console.log(toot)
 }

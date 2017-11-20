@@ -4,7 +4,15 @@
   "description": "Rollup boilerplate ?",
   "main": "bundle.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-postcss": "^0.5.5"
+  },
   "scripts": {
     "bundle-web": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
